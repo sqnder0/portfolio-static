@@ -1,0 +1,33 @@
+[{
+    "name": "HTML 5",
+    "id":"html5",
+    "path": "./assets/html.svg",
+    "link": "",
+    "innerText":  "HTML5 (Hypertext Markup Language 5) is a markup language used for structuring and presenting hypertext documents on the World Wide Web."
+    },{
+    "name": "CSS 3",
+    "id":"css3",
+    "path": "./assets/css.svg",
+    "innerText": "CSS, or Cascading Style Sheets, is used to style and layout webpages. It controls the visual appearance of HTML elements, including colors, fonts, spacing, and positioning, making websites look attractive and consistent across different devices."
+    },{
+        "name": "JavaScript",
+        "id": "javascript",
+        "path": "./assets/javascript.svg",
+        "innerText": "JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior"
+    },{
+        "name": "Python",
+        "id": "python",
+        "path": "./assets/python.svg",
+        "innerText": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."
+    }, {
+        "name": "React",
+        "id": "react",
+        "path":"./assets/react.png",
+        "innerText":"React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies."
+    },{
+        "name": "Django",
+        "id": "Django_(web_framework)",
+        "path": "./assets/django.svg",
+        "innerText": "Django is a free and open-source, Python-based web framework that runs on a web server. It follows the model–template–views (MTV) architectural pattern. It is maintained by the Django Software Foundation (DSF), an independent organization established in the US as a non-profit."
+    }
+    ]

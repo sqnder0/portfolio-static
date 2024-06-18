@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sander Pelgrims | Full stack web development</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./background.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+    <div id="background">
+    <section class="wave-btm" id="greeting">
+    <h1 class="ubuntu title"> <span id="greetingSpan">hi</span>, I'm <span class="cyan">Sander Pelgrims</span> and I specialize in web development.</h1>
+    <br>
+    <div id="s1Box">Find out more ><div/>
+    </section>
+    <hr>
+    <section id="about">
+        <div class="pfpBorder">
+        <img src="./assets/profile-picture.jpg" id="profilePicture" class="border">
+    </div>
+    <div id="aboutTextWrapper">
+        <h2 class="ubuntu title" id="aboutH2">About <span class="cyan">me</span>!</h2>
+        <div id="about-text">
+            <h3 class="drop">I</h3><p>'m Sander, I'm 15 and have a deep passion for computers and coding.
+                Most of my free time goes into coding because I'm passionate about it.
+                Problem-solving is my forte, and while coding can be tough, I thrive on the challenge.
+                Oh, and I got excused from computer science class because, I code a little better then the teacher.
+        </div>
+        <a href="#toolkit">My toolkit</a><a href="#s5">Contact me</a>
+    </div>
+    </section>
+    <hr>
+    <section id="toolkit">
+        <h2 class="ubuntu bold title"><span class="cyan">My</span> toolkit</h2>
+        <div class="grid" id="tools">
+        </div>
+    </section>
+    <hr>
+    <section id="contact" class="grid">
+        <h2 class="title">Contact <span class="cyan">me</span>!</h2>
+        <p class="hidew800" id="contactMeText">Hey, if you want to get in touch with me, whether you need a website, have a project in mind, you can use the form on the right or send me an <a>email</a>. I'm always open to new projects to work on. Your thoughts and questions are important to me, and I'll make sure to respond as soon as I can. Looking forward to hearing from you and potentially working together to bring your idea to life!</p>
+        <div id="pc" class="hidew800"></div>
+        <div id="formWrapper">
+        <form id="contactForm">
+                <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                <input type="text" id="cname" name="cname" placeholder="company / website name" required>
+                <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                <input type="email" id="email" name="email" placeholder="Your Email Adress" required>
+                <textarea placeholder="Extra notes..." id="details" name="details"></textarea>
+            <input type="submit" id="submit" name="submit" value="Send email">
+          </form></div>
+    </section>
+</div>
+    <script src="./index.js" type="module"></script>
+    <script class="hidew800" src="./3dModels.js" type="module"></script>
+</body>
+</html>
